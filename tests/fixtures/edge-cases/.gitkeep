@@ -1,0 +1,8 @@
+# Edge Cases
+
+PDFs with unusual or boundary conditions.
+
+Expected files:
+- `multiple-sigs.pdf` - Multiple signatures on same document
+- `unsigned.pdf` - PDF with no signatures
+- `corrupted.pdf` - Corrupted or malformed PDF

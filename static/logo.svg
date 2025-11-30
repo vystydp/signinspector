@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">SignInspector Logo</title>
+  <desc id="desc">Diamond-shaped monogram with the letters S and I</desc>
+  <!-- Background diamond -->
+  <rect x="16" y="16" width="224" height="224" fill="#222222" transform="rotate(45 128 128)" rx="12" ry="12"/>
+  <!-- Inner negative-space shape approximating S and I -->
+  <path fill="#ffffff" d="
+    M128 40
+    L96 72 H120 V96 H88
+    Q72 96 72 112 V120
+    Q72 136 88 136 H120 V152 H104
+    Q80 152 80 176 V184
+    Q80 208 104 208 H152
+    Q176 208 176 184 V176
+    Q176 152 152 152 H136 V136 H168
+    Q184 136 184 120 V112
+    Q184 96 168 96 H136 V72 H160 L128 40 Z
+  "/>
+</svg>

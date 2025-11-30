@@ -1,0 +1,11 @@
+# Ignore all PDF files initially (until sample PDFs are added)
+*.pdf
+
+# But keep READMEs
+!README.md
+
+# Allow specific test fixtures when ready
+# !valid/*.pdf
+# !modified/*.pdf
+# !edge-cases/*.pdf
+# !algorithms/*.pdf

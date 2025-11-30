@@ -1,0 +1,7 @@
+# Modified PDFs
+
+Place PDFs that have been modified after signing to test integrity detection.
+
+Expected files:
+- `content-added.pdf` - Content added after signature (incremental update)
+- `tampered.pdf` - Maliciously modified bytes

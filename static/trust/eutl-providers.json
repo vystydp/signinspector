@@ -1,0 +1,579 @@
+{
+  "version": "qtsp-2025-11-30",
+  "generatedAt": "2025-11-30T16:49:29.465968+00:00",
+  "source": "Curated list of European QTSPs",
+  "note": "This is a curated list of major European Qualified Trust Service Providers. For comprehensive validation, integrate with official EU trust list services.",
+  "providerCount": 57,
+  "providers": [
+    {
+      "id": "CZ:Bankovní identita, a.s.",
+      "country": "CZ",
+      "name": "Bankovní identita, a.s.",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "bankovní identita",
+      "issuerDnCanonical": "bankovní identita",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "CZ:Bankovní identita, a.s.",
+      "country": "CZ",
+      "name": "Bankovní identita, a.s.",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "bankovni identita",
+      "issuerDnCanonical": "bankovni identita",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "CZ:Bankovní identita, a.s.",
+      "country": "CZ",
+      "name": "Bankovní identita, a.s.",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "bank id",
+      "issuerDnCanonical": "bank id",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "CZ:Bankovní identita, a.s.",
+      "country": "CZ",
+      "name": "Bankovní identita, a.s.",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "bankid",
+      "issuerDnCanonical": "bankid",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "CZ:PostSignum",
+      "country": "CZ",
+      "name": "PostSignum",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "postsignum",
+      "issuerDnCanonical": "postsignum",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "CZ:PostSignum",
+      "country": "CZ",
+      "name": "PostSignum",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "česká pošta",
+      "issuerDnCanonical": "česká pošta",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "CZ:PostSignum",
+      "country": "CZ",
+      "name": "PostSignum",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "ceska posta",
+      "issuerDnCanonical": "ceska posta",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "CZ:I.CA",
+      "country": "CZ",
+      "name": "I.CA",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "i.ca",
+      "issuerDnCanonical": "i.ca",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "CZ:I.CA",
+      "country": "CZ",
+      "name": "I.CA",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "první certifikační",
+      "issuerDnCanonical": "první certifikační",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "CZ:I.CA",
+      "country": "CZ",
+      "name": "I.CA",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "prvni certifikacni",
+      "issuerDnCanonical": "prvni certifikacni",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "CZ:eIdentity",
+      "country": "CZ",
+      "name": "eIdentity",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "eidentity",
+      "issuerDnCanonical": "eidentity",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "CZ:eIdentity",
+      "country": "CZ",
+      "name": "eIdentity",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "elektronická identita",
+      "issuerDnCanonical": "elektronická identita",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "CZ:eIdentity",
+      "country": "CZ",
+      "name": "eIdentity",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "elektronicka identita",
+      "issuerDnCanonical": "elektronicka identita",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "BE:Certipost",
+      "country": "BE",
+      "name": "Certipost",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "cn=certipost",
+      "issuerDnCanonical": "cn=certipost",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "BE:Certipost",
+      "country": "BE",
+      "name": "Certipost",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "o=certipost",
+      "issuerDnCanonical": "o=certipost",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "BE:GlobalSign",
+      "country": "BE",
+      "name": "GlobalSign",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "cn=globalsign",
+      "issuerDnCanonical": "cn=globalsign",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "BE:GlobalSign",
+      "country": "BE",
+      "name": "GlobalSign",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "o=globalsign",
+      "issuerDnCanonical": "o=globalsign",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "DE:D-TRUST",
+      "country": "DE",
+      "name": "D-TRUST",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "cn=d-trust",
+      "issuerDnCanonical": "cn=d-trust",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "DE:D-TRUST",
+      "country": "DE",
+      "name": "D-TRUST",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "o=d-trust",
+      "issuerDnCanonical": "o=d-trust",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "DE:D-TRUST",
+      "country": "DE",
+      "name": "D-TRUST",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "o=bundesdruckerei",
+      "issuerDnCanonical": "o=bundesdruckerei",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "DE:T-Systems",
+      "country": "DE",
+      "name": "T-Systems",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "cn=telesec",
+      "issuerDnCanonical": "cn=telesec",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "DE:T-Systems",
+      "country": "DE",
+      "name": "T-Systems",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "o=t-systems",
+      "issuerDnCanonical": "o=t-systems",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "ES:FNMT-RCM",
+      "country": "ES",
+      "name": "FNMT-RCM",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "cn=fnmt",
+      "issuerDnCanonical": "cn=fnmt",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "ES:FNMT-RCM",
+      "country": "ES",
+      "name": "FNMT-RCM",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "o=fnmt",
+      "issuerDnCanonical": "o=fnmt",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "ES:FNMT-RCM",
+      "country": "ES",
+      "name": "FNMT-RCM",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "ou=ceres",
+      "issuerDnCanonical": "ou=ceres",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "ES:AC Camerfirma",
+      "country": "ES",
+      "name": "AC Camerfirma",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "cn=camerfirma",
+      "issuerDnCanonical": "cn=camerfirma",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "ES:AC Camerfirma",
+      "country": "ES",
+      "name": "AC Camerfirma",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "o=camerfirma",
+      "issuerDnCanonical": "o=camerfirma",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "FR:ChamberSign",
+      "country": "FR",
+      "name": "ChamberSign",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "cn=chambersign",
+      "issuerDnCanonical": "cn=chambersign",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "FR:ChamberSign",
+      "country": "FR",
+      "name": "ChamberSign",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "o=chambersign",
+      "issuerDnCanonical": "o=chambersign",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "FR:Certinomis",
+      "country": "FR",
+      "name": "Certinomis",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "cn=certinomis",
+      "issuerDnCanonical": "cn=certinomis",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "FR:Certinomis",
+      "country": "FR",
+      "name": "Certinomis",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "o=certinomis",
+      "issuerDnCanonical": "o=certinomis",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "IT:InfoCert",
+      "country": "IT",
+      "name": "InfoCert",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "cn=infocert",
+      "issuerDnCanonical": "cn=infocert",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "IT:InfoCert",
+      "country": "IT",
+      "name": "InfoCert",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "o=infocert",
+      "issuerDnCanonical": "o=infocert",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "IT:Aruba PEC",
+      "country": "IT",
+      "name": "Aruba PEC",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "cn=aruba",
+      "issuerDnCanonical": "cn=aruba",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "IT:Aruba PEC",
+      "country": "IT",
+      "name": "Aruba PEC",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "o=aruba",
+      "issuerDnCanonical": "o=aruba",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "NL:KPN",
+      "country": "NL",
+      "name": "KPN",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "cn=kpn",
+      "issuerDnCanonical": "cn=kpn",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "NL:KPN",
+      "country": "NL",
+      "name": "KPN",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "o=kpn",
+      "issuerDnCanonical": "o=kpn",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "NL:QuoVadis",
+      "country": "NL",
+      "name": "QuoVadis",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "cn=quovadis",
+      "issuerDnCanonical": "cn=quovadis",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "NL:QuoVadis",
+      "country": "NL",
+      "name": "QuoVadis",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "o=quovadis",
+      "issuerDnCanonical": "o=quovadis",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "CH:SwissSign",
+      "country": "CH",
+      "name": "SwissSign",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "cn=swisssign",
+      "issuerDnCanonical": "cn=swisssign",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "CH:SwissSign",
+      "country": "CH",
+      "name": "SwissSign",
+      "serviceType": "QCertESig",
+      "status": "granted",
+      "issuerDnPattern": "o=swisssign",
+      "issuerDnCanonical": "o=swisssign",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "EU:DigiCert",
+      "country": "EU",
+      "name": "DigiCert",
+      "serviceType": "CertESig",
+      "status": "granted",
+      "issuerDnPattern": "cn=digicert",
+      "issuerDnCanonical": "cn=digicert",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "EU:DigiCert",
+      "country": "EU",
+      "name": "DigiCert",
+      "serviceType": "CertESig",
+      "status": "granted",
+      "issuerDnPattern": "o=digicert",
+      "issuerDnCanonical": "o=digicert",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "EU:Thawte",
+      "country": "EU",
+      "name": "Thawte",
+      "serviceType": "CertESig",
+      "status": "granted",
+      "issuerDnPattern": "cn=thawte",
+      "issuerDnCanonical": "cn=thawte",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "EU:Thawte",
+      "country": "EU",
+      "name": "Thawte",
+      "serviceType": "CertESig",
+      "status": "granted",
+      "issuerDnPattern": "o=thawte",
+      "issuerDnCanonical": "o=thawte",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "EU:Entrust",
+      "country": "EU",
+      "name": "Entrust",
+      "serviceType": "CertESig",
+      "status": "granted",
+      "issuerDnPattern": "cn=entrust",
+      "issuerDnCanonical": "cn=entrust",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "EU:Entrust",
+      "country": "EU",
+      "name": "Entrust",
+      "serviceType": "CertESig",
+      "status": "granted",
+      "issuerDnPattern": "o=entrust",
+      "issuerDnCanonical": "o=entrust",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "EU:Sectigo",
+      "country": "EU",
+      "name": "Sectigo",
+      "serviceType": "CertESig",
+      "status": "granted",
+      "issuerDnPattern": "cn=sectigo",
+      "issuerDnCanonical": "cn=sectigo",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "EU:Sectigo",
+      "country": "EU",
+      "name": "Sectigo",
+      "serviceType": "CertESig",
+      "status": "granted",
+      "issuerDnPattern": "o=sectigo",
+      "issuerDnCanonical": "o=sectigo",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "EU:Sectigo",
+      "country": "EU",
+      "name": "Sectigo",
+      "serviceType": "CertESig",
+      "status": "granted",
+      "issuerDnPattern": "cn=comodo",
+      "issuerDnCanonical": "cn=comodo",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "EU:Sectigo",
+      "country": "EU",
+      "name": "Sectigo",
+      "serviceType": "CertESig",
+      "status": "granted",
+      "issuerDnPattern": "o=comodo",
+      "issuerDnCanonical": "o=comodo",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "EU:IdenTrust",
+      "country": "EU",
+      "name": "IdenTrust",
+      "serviceType": "CertESig",
+      "status": "granted",
+      "issuerDnPattern": "cn=identrust",
+      "issuerDnCanonical": "cn=identrust",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "EU:IdenTrust",
+      "country": "EU",
+      "name": "IdenTrust",
+      "serviceType": "CertESig",
+      "status": "granted",
+      "issuerDnPattern": "o=identrust",
+      "issuerDnCanonical": "o=identrust",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "EU:GoDaddy",
+      "country": "EU",
+      "name": "GoDaddy",
+      "serviceType": "CertESig",
+      "status": "granted",
+      "issuerDnPattern": "cn=godaddy",
+      "issuerDnCanonical": "cn=godaddy",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "EU:GoDaddy",
+      "country": "EU",
+      "name": "GoDaddy",
+      "serviceType": "CertESig",
+      "status": "granted",
+      "issuerDnPattern": "o=godaddy",
+      "issuerDnCanonical": "o=godaddy",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "EU:SSL.com",
+      "country": "EU",
+      "name": "SSL.com",
+      "serviceType": "CertESig",
+      "status": "granted",
+      "issuerDnPattern": "cn=ssl.com",
+      "issuerDnCanonical": "cn=ssl.com",
+      "subjectKeyIdHex": null
+    },
+    {
+      "id": "EU:SSL.com",
+      "country": "EU",
+      "name": "SSL.com",
+      "serviceType": "CertESig",
+      "status": "granted",
+      "issuerDnPattern": "o=ssl.com",
+      "issuerDnCanonical": "o=ssl.com",
+      "subjectKeyIdHex": null
+    }
+  ]
+}

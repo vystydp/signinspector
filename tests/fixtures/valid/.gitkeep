@@ -1,0 +1,8 @@
+# Valid Signed PDFs
+
+Place valid, properly signed PDF documents here for regression testing.
+
+Expected files:
+- `bankid-signed.pdf` - Czech BankID signature
+- `eu-qualified.pdf` - EU qualified certificate signature
+- `adobe-signed.pdf` - Adobe Acrobat signature

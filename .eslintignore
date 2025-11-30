@@ -1,0 +1,10 @@
+*.config.js
+*.config.cjs
+*.config.ts
+.svelte-kit
+build
+dist
+node_modules
+static/docs
+playwright-report
+test-results

@@ -1,0 +1,8 @@
+# Algorithm Test PDFs
+
+PDFs signed with different cryptographic algorithms to test algorithm support.
+
+Expected files:
+- `rsa-2048.pdf` - RSA 2048-bit signature
+- `ecdsa-p256.pdf` - ECDSA P-256 signature
+- `sha1-weak.pdf` - SHA-1 signature (should trigger warning)
