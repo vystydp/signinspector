@@ -130,7 +130,7 @@ See [API Documentation](./static/docs/index.html) for full type definitions.
 
 ## 🎯 Example
 
-Check out the [live demo](https://vystydp.github.io/signinspector) to see SignInspector in action.
+Check out the [live demo](https://signinspector.app) to see SignInspector in action.
 
 ## 🏗️ Development
 

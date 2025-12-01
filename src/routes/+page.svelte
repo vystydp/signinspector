@@ -80,7 +80,7 @@
     content="Validate PDF digital signatures (BankID.cz, EU eIDAS, PAdES) securely in your browser. No upload required."
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://vystydp.github.io/signinspector/" />
+  <meta property="og:url" content="https://signinspector.app" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
@@ -101,8 +101,8 @@
         "browserRequirements": "Requires JavaScript and Web Crypto API",
         "softwareVersion": "1.0",
         "description": "Client-side PDF digital signature validator supporting BankID.cz, EU Trusted List (eIDAS), PKCS#7, and PAdES signatures. Validate PDF signatures securely in your browser using Web Crypto API without uploading files.",
-        "url": "https://vystydp.github.io/signinspector/",
-        "screenshot": "https://vystydp.github.io/signinspector/logo.svg",
+        "url": "https://signinspector.app",
+        "screenshot": "https://signinspector.app/logo.svg",
         "featureList": [
           "BankID.cz signature validation",
           "EU eIDAS qualified signatures",
@@ -134,7 +134,7 @@
         "@type": "Organization",
         "name": "Petr Vystyd - Independent Developer",
         "url": "https://github.com/vystydp",
-        "logo": "https://vystydp.github.io/signinspector/logo.svg",
+        "logo": "https://signinspector.app/logo.svg",
         "contactPoint": {
           "@type": "ContactPoint",
           "email": "vystydp@gmail.com",
