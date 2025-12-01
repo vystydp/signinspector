@@ -54,7 +54,7 @@
   ],
   "scripts": {
     "dev": "vite",
-    "build": "pnpm run build:types && pnpm run doc && pnpm run build:app",
+    "build": "vite build",
     "build:app": "vite build",
     "build:lib": "pnpm run build:types && vite build --config vite.config.lib.ts",
     "build:types": "tsc --project tsconfig.json",
