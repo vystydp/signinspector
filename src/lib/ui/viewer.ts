@@ -162,8 +162,10 @@ export class SignInspectorViewer {
       this.announceStatus(result);
 
       // Emit event
-      this.eventEmitter.emit('validationComplete', result);
-      this.eventEmitter.emit('documentLoaded', result);
+      this.eventEmitter.emit('validationComplete', { result });
+      if (source instanceof File) {
+        this.eventEmitter.emit('documentLoaded', { filename: source.name, size: source.size });
+      }
     } catch (error) {
       this.renderError(error instanceof Error ? error.message : 'Validation failed');
     }

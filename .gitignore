@@ -51,3 +51,6 @@ UX_IMPROVEMENTS.md
 docs/ALIGNMENT_SUMMARY.md
 docs/ARCHITECTURE_IMPROVEMENTS.md
 
+
+.vercel
+.env*.local
