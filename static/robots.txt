@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://vystydp.github.io/signinspector/sitemap.xml
+Sitemap: https://signinspector.app/sitemap.xml
 
 # Crawl-delay (optional, be nice to search engines)
 Crawl-delay: 1
