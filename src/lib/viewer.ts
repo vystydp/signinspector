@@ -5,8 +5,8 @@
 
 import type { ISignInspectorViewerOptions, ValidationResult, SignInspectorEvent } from './types';
 import { EventEmitter } from './events';
-import { validatePdfBytes, validatePdfFile } from './validator';
-import { t } from './i18n';
+import { validatePdfBytes, validatePdfFile } from './core/validation/validator';
+import { t } from './i18n/i18n';
 
 const DEFAULT_OPTIONS: ISignInspectorViewerOptions = {
   width: '100%',
@@ -164,8 +164,10 @@ export class SignInspectorViewer {
       this.announceStatus(result);
 
       // Emit event
-      this.eventEmitter.emit('validationComplete', result);
-      this.eventEmitter.emit('documentLoaded', result);
+      this.eventEmitter.emit('validationComplete', { result });
+      if (source instanceof File) {
+        this.eventEmitter.emit('documentLoaded', { filename: source.name, size: source.size });
+      }
     } catch (error) {
       this.renderError(error instanceof Error ? error.message : 'Validation failed');
     }
