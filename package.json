@@ -33,7 +33,7 @@
   "bugs": {
     "url": "https://github.com/vystydp/signinspector/issues"
   },
-  "homepage": "https://github.com/vystydp/signinspector#readme",
+  "homepage": "https://signinspector.app",
   "engines": {
     "node": ">=18",
     "pnpm": ">=8"
