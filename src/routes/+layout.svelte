@@ -2,6 +2,9 @@
   import { onMount } from 'svelte';
   import '../app.css';
   import { detectLocale, loadLocale, localeStore } from '$lib/i18n/i18n';
+  import { inject } from '@vercel/analytics';
+
+  inject();
 
   let ready = false;
   $: currentLocale = $localeStore;
