@@ -4,10 +4,16 @@
 
   type BabylonModule = typeof import('babylonjs');
 
+  // Game configuration constants
+  const SPIN_ANIMATION_CYCLES = 20;
+  const SPIN_INTERVAL_MS = 100;
+  const SPIN_COST = 10;
+  const INITIAL_CREDITS = 100;
+
   let canvas: HTMLCanvasElement;
   let engine: { runRenderLoop: (fn: () => void) => void; resize: () => void; dispose: () => void } | null = null;
   let scene: { render: () => void } | null = null;
-  let credits = 100;
+  let credits = INITIAL_CREDITS;
   let isSpinning = false;
   let lastWin = 0;
   let message = 'Press SPIN to play!';
@@ -214,15 +220,15 @@
   }
 
   function spin() {
-    if (isSpinning || credits < 10) {
-      if (credits < 10) {
+    if (isSpinning || credits < SPIN_COST) {
+      if (credits < SPIN_COST) {
         message = 'Not enough credits!';
       }
       return;
     }
 
     isSpinning = true;
-    credits -= 10;
+    credits -= SPIN_COST;
     lastWin = 0;
     message = 'Spinning...';
 
@@ -232,7 +238,7 @@
       reelResults = symbols.map(() => symbols[Math.floor(Math.random() * symbols.length)]);
       spinCount++;
 
-      if (spinCount >= 20) {
+      if (spinCount >= SPIN_ANIMATION_CYCLES) {
         clearInterval(spinInterval);
 
         // Final results
@@ -246,7 +252,7 @@
         checkWin();
         isSpinning = false;
       }
-    }, 100);
+    }, SPIN_INTERVAL_MS);
   }
 
   function checkWin() {
@@ -326,11 +332,11 @@
       {/if}
 
       <div class="controls">
-        <button class="spin-button" on:click={spin} disabled={isSpinning || credits < 10}>
+        <button class="spin-button" on:click={spin} disabled={isSpinning || credits < SPIN_COST}>
           {#if isSpinning}
             SPINNING...
           {:else}
-            SPIN (10 credits)
+            SPIN ({SPIN_COST} credits)
           {/if}
         </button>
 
